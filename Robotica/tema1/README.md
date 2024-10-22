@@ -10,19 +10,15 @@ in timpul incarcarii, totodata o sa faca LED-urile sa clipeasca de 3 ori.
 
 ## Componentele utilizate
 
--4x LED-uri de culoare verde
-    Reprezinta nivelul de incarcare al statiei : 25%, 50%, 75%, 100%
--1x LED RGB
-    Reprezinta starea statiei
--2x butoane
-    Start: Incepe procesul de incarcare daca statie nu este deja in mijlocul procesului
-    Stop: Apasarea lunga reseteaza statia
--7x rezistoare 220ohm
-    Pentru Led-uri 
--2x rezistoare 1k ohm
-    Pentru butoane
--breadboard
--mai multe fire de legatura
+* 4x LED-uri de culoare verde - reprezinta nivelul de incarcare al statiei : 25%, 50%, 75%, 100%
+* 1x LED RGB - Reprezinta starea statiei
+* 2x butoane
+* Start: Incepe procesul de incarcare daca statie nu este deja in mijlocul procesului
+* Stop: Apasarea lunga reseteaza statia
+* 7x rezistoare 220ohm -Pentru Led-uri 
+* 2x rezistoare 1k ohm - Pentru butoane
+* breadboard
+* mai multe fire de legatura
 
 ## poze ale setup-ului fizic
 ![IMG1](imagini/imag1.png)
