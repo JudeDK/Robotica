@@ -2,9 +2,10 @@
 # Robotică
 
 ## Descrierea task-ulul
+
 In aceasta tema am simulat o statie de incarcare a vehiculelor electrice folosing mai multe LED-uri si butoane. 
 
-Statia areAA 2 stari: libera (verde) si ocupata (rosie). Nivelul de incarcare este redat de cele 4 LED-uri, fiecare
+Statia are 2 stari: libera (verde) si ocupata (rosie). Nivelul de incarcare este redat de cele 4 LED-uri, fiecare
 reprezentand 25%. Cele doua butoane reprezinta startul unei incarcari respectiv resetarea statiei daca aceasta este 
 in timpul incarcarii, totodata o sa faca LED-urile sa clipeasca de 3 ori.
 
