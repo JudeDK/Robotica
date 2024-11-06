@@ -108,9 +108,11 @@ void Countdown() {
 void Input() {
     while (Serial.available()) {
         char received = Serial.read(); 
+        
 
         if (received == '\b' && inputBuffer.length() > 0) { // pentru a sterge caractere din cuvantul introdus de utilizator
             inputBuffer.remove(inputBuffer.length() - 1); 
+            Serial.print("\b \b");
         } else if (received == '\n') {
             inputBuffer.trim(); 
 
@@ -128,6 +130,7 @@ void Input() {
             wordTime = millis(); 
         } else {
             inputBuffer += received;// introducem in bufferul pentru cuvantul utilizatorului caracterul introdus de utilizator
+            Serial.print(received);
         }
     }
 
@@ -173,8 +176,7 @@ void setup() {
     pinMode(startButton, INPUT); 
     pinMode(difficultyButton, INPUT); 
     
-    randomSeed(analogRead(A0));
-
+   
    //intreruperi start si dificultate
     attachInterrupt(digitalPinToInterrupt(startButton), changeStartStopGame, FALLING);
     attachInterrupt(digitalPinToInterrupt(difficultyButton), Difficulty, FALLING);

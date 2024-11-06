@@ -30,3 +30,6 @@ La finalul jocului (dupa 30 de secunde) jocul se va termina si se va afisa in te
 ## Schema electrică
 ![IMG5](imagini/imag5.png)
 
+## Videoclip 
+
+https://www.youtube.com/watch?v=Jzvqa_AbJS0
