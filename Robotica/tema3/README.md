@@ -16,4 +16,4 @@ Tema presupune crearea unui joc interactiv pentru doi jucători, conceput să le
 * 2x Arduino Uno
 
 ## Imagini cu montajul fizic:
-![IMG1](imagini/img1.PNG)
+![IMG1](imagini/IMG1.png)
