@@ -13,7 +13,7 @@ Tema presupune crearea unui joc interactiv pentru doi jucători, conceput să le
 * 7x Rezistoare 330Ω
 * 2x Breadboard - pe acestea este făcut întreg montajul fizic.
 * Cabluri de legătură - sunt folosite la conectarea elementelor montajului.
-* 2x Arduino Uno
+* 2x Arduino  Uno
 
 ## Imagini cu montajul fizic:
-![IMG1](imagini/IMG1.png)
+![IMG1](imagini/img1.png)
