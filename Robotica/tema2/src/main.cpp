@@ -175,8 +175,9 @@ void setup() {
 
     pinMode(startButton, INPUT); 
     pinMode(difficultyButton, INPUT); 
-    
-   
+
+
+    randomSeed(analogRead(A0)); // Seed pentru numere random
    //intreruperi start si dificultate
     attachInterrupt(digitalPinToInterrupt(startButton), changeStartStopGame, FALLING);
     attachInterrupt(digitalPinToInterrupt(difficultyButton), Difficulty, FALLING);
